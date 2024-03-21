@@ -14,10 +14,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.net.InetSocketAddress;
 
-/**
- * @author LSD
- * @date 2020/11/26 11:33
- */
 @Component
 @Slf4j
 public class NettyServer {

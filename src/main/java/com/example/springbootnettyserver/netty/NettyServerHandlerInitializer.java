@@ -3,10 +3,6 @@ package com.example.springbootnettyserver.netty;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 
-/**
- * @author LSD
- * @date 2020/11/26 10:50
- */
 public class NettyServerHandlerInitializer extends ChannelInitializer<Channel> {
 
     private static final int MAX_FRAME_LENGTH = 1024 * 1024;  //最大长度

@@ -11,9 +11,6 @@ import java.net.InetSocketAddress;
 import com.example.springbootnettyserver.factory.CommandHandlerFactory;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @date 2020/11/26 11:40
- */
 @Slf4j
 @ChannelHandler.Sharable
 public class NettyServerHandler extends ChannelInboundHandlerAdapter {
